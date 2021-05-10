@@ -1,3 +1,4 @@
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -24,6 +25,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 16px!important;
+  color: #fff!important;
+  background-color: #333!important;
+  
+
 }
 
 .footer a {
@@ -112,7 +118,10 @@
   height: 1em;
   margin-left: 0.5rem;
 }
-
+.row {
+    margin:20px
+  }
+  
 @media (max-width: 600px) {
   .grid {
     width: 100%;
